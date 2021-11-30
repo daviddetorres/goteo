@@ -123,7 +123,7 @@ $coord = [];
         <tbody>
             <?php
             foreach ($this->list as $invest) :
-                $title = $invest->id . ' - ' . $invest->amount . '€ - ' . $invest->full_name;
+                $title = $invest->id . ' - ' . $invest->amount . '⛏️ - ' . $invest->full_name;
                 if($loc = $invest->getLocation()) {
                     $coords[] = ['title' => $title,
                                 'lat' => $loc->latitude,

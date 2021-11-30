@@ -112,7 +112,7 @@ project-removed-translation-ko: 'Fehler beim Versuch, die Übersetzung zu lösch
 project-social-commitment-title: 'Gesellschaftliches Engagement'
 project-create-title: 'Starten Sie ein Projekt'
 project-create-subtitle-alert: '<strong>WOOOOW!</strong><p>Wir machen Fortschritte! Jetzt können Sie Ihr Projekt kurz und bündig zusammenfassen!</p>'
-project-create-minimum-field: 'Minimum (€)'
+project-create-minimum-field: 'Minimum (⛏️)'
 project-create-minimum-calculate-button: 'berechnen'
 project-create-minimum-alert: '<strong>BRAVOOO!</strong><p>Gehen wir weiter! Denken Sie über das Geld nach, das Sie benötigen, drücken Sie auf Berechnen, und wir sagen Ihnen, wie viele Unterstützer Sie mit unseren durchschnittlichen Spenden erhalten müssen ;-)</p>'
 project-create-minimum-calculated-alert: '<strong>SUPER!</strong><p>Sind Sie in der Lage, ungefähr diese Anzahl an Unterstützer zu bekommen? Wenn ja, dann nur zu! Andernfalls denken Sie an Ihr Minimum und rechnen Sie neu!</p>'

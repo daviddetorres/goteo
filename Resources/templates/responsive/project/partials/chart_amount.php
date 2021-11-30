@@ -40,7 +40,7 @@ function printAmount() {
           .attr('y', 6)
           .attr('dy', '.71em')
           .style('text-anchor', 'end')
-          .text('Conseguido (€)');
+          .text('Conseguido (⛏️)');
 
       var legend = svg.append('g')
         .attr('class', 'legend')
