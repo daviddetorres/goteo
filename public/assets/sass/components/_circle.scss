@@ -187,20 +187,20 @@ $circle-bg-color: #f5f5f5;
 
     // override colors for the cyan skin
   &.cyan {
-      background-color: lighten($color-cyan, 25%);
+      background-color: lighten($color-sysdig-tur, 25%);
       .bar,
       .fill{
-          border-color: $color-cyan !important;
+          border-color: $color-sysdig-tur !important;
       }
       > span {
-          color: lighten($color-cyan, 0%);
+          color: lighten($color-sysdig-tur, 0%);
       }
       &:after{
-          background-color: lighten($color-cyan, 50%);
+          background-color: lighten($color-sysdig-tur, 50%);
       }
       &:hover{
           > span {
-              color: $color-cyan;
+              color: $color-sysdig-tur;
           }
       }
   }
