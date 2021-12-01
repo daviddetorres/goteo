@@ -279,13 +279,13 @@
         line-height: 1;
         font-weight: 300;
         color: $color-white;
-        background: $color-cyan;
-        background: radial-gradient(circle at 20% 50%, $color-cyan, lighten($color-cyan, 10%) 60%, lighten($color-cyan, 30%) 90%);
-        box-shadow: 2px 5px 12px -6px darken($color-cyan, 20%);
+        background: $color-sysdig-tur;
+        background: $color-sysdig-tur;
+        box-shadow: 2px 5px 12px -6px darken($color-sysdig-tur, 20%);
         cursor: pointer;
         &:hover {
-        background: darken($color-cyan, 10%);
-        background: radial-gradient(circle at 20% 50%, darken($color-cyan, 10%), $color-cyan 60%, lighten($color-cyan, 20%) 90%);
+        background: darken($color-sysdig-tur, 10%);
+        background: $color-sysdig-tur;
         }
 
         &.flip {
@@ -309,11 +309,11 @@
             font-size: $font-size;
         }
         a {
-            color: $color-cyan;
+            color: $color-sysdig-tur;
         }
     }
     .categories {
-        color: $color-cyan;
+        color: $color-sysdig-tur;
         margin-top: 0.5em;
     }
     .bottom {
@@ -351,17 +351,17 @@
         padding: 0 5%;
         .progress {
             width: 100%;
-            background-color: lighten($color-cyan, 40%);
+            background-color: lighten($color-sysdig-tur, 40%);
             box-shadow: none;
             height: 10px;
             border-radius: 5px;
             margin-bottom: 5px;
             .progress-bar {
-                background-color: $color-cyan;
+                background-color: $color-sysdig-tur;
             }
         }
         p {
-            color: $color-cyan;
+            color: $color-sysdig-tur;
             text-align: center;
             margin: 0 0 1em 0;
         }
@@ -491,7 +491,7 @@
             margin: 0;
             padding: 0;
             >a {
-                color: $primary-color;
+                color: $color-sysdig-tur;
                 text-decoration: underline;
             }
         }
@@ -504,7 +504,7 @@
             padding: 0;
             strong {
                 font-weight: 600;
-                color: $color-cyan;
+                color: $color-sysdig-tur;
                 line-height: $font-size * 2.5;
                 font-size: $font-size * 2.5;
             }
