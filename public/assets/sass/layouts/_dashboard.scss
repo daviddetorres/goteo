@@ -725,7 +725,7 @@
         &:hover {
             background-color:inherit;
             >i {
-                background-color:$color-cyan;
+                background-color:$color-sysdig-tur-light;
             }
         }
         @media(max-width: $breakpoint-sm - 1) {

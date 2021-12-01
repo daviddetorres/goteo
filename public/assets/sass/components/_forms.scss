@@ -456,7 +456,7 @@
 .image-zone {
   position: relative;
   width: 100%;
-  background: $background-light-body;
+  background: $color-sysdig-tur-background;
   padding: 5px;
   border-radius: 5px;
   &::after {
@@ -492,7 +492,7 @@
     line-height:$font-size;
     overflow: hidden;
     i {
-        color: $color-cyan;
+        color: $color-sysdig-tur;
     }
     .dz-preview {
       &.dz-image-preview {
@@ -504,16 +504,16 @@
   .image-list-sortable {
     min-height: 160px;
     display: block;
-    border: 5px solid $background-light-body;
+    border: 5px solid $color-sysdig-tur-background;
     margin: 0;
     line-height: 0;
     float: left;
 
     // min-width: 150px;
     &.over {
-      // background-color: $background-pink;
-      // border-color:$background-pink;
-      border-color:$color-cyan;
+      // background-color: $color-sysdig-tur-background;
+      // border-color:$color-sysdig-tur-background;
+      border-color:$color-sysdig-tur;
     }
     &.choose {
         width: 100%;
