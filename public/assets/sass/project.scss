@@ -155,7 +155,7 @@ div {
             height: 100%;
           }
           &.done {
-            background-color: #149290;
+            background-color: $color-sysdig-tur;
           }
         }
         .top-border-radius {
@@ -172,7 +172,7 @@ div {
             height: 100%;
           }
           &.done {
-            background-color: #149290;
+            background-color: $color-sysdig-tur;
           }
         }
       }
@@ -184,7 +184,7 @@ div {
             background-color: #d5d5d5;
           }
           &.done {
-            background-color: #149290;
+            background-color: $color-sysdig-tur;
           }
         }
         .bottom-border-radius {
@@ -252,13 +252,13 @@ div {
       }
       &.reached-label {
         padding-top: 10px;
-        color: #149290;
+        color: $color-sysdig-tur;
         font-size: 14px;
         font-weight: bold;
       }
       &.reached {
         font-size: 48px;
-        color: #149290;
+        color: $color-sysdig-tur;
         font-weight: bold;
         font-size: 48px;
         line-height: 1.1;
@@ -301,7 +301,7 @@ div {
       top: 3px;
     }
     &.active span.heart-icon {
-      color: #149290;
+      color: $color-sysdig-tur;
     }
   }
 }
