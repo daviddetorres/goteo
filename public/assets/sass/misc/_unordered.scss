@@ -399,7 +399,7 @@ form.create-project-form {
   .bootstrap-datetimepicker-widget {
     table td {
       &.active {
-        background-color: $background-pink !important;
+        background-color: $color-sysdig-tur-light !important;
       }
       &:hover {
         /*background-color: $background-white;*/
@@ -416,7 +416,7 @@ form.create-project-form {
     background: #FFF !important;
   }
   .bootstrap-datetimepicker-widget table td span.active {
-    background-color: $background-pink !important;
+    background-color: $color-sysdig-tur-light !important;
   }
   input {
     outline: 0 !important;
