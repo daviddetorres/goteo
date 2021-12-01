@@ -33,7 +33,7 @@
     }
 
     .input-wrap {
-      background: $background-light-body;
+      background: $color-sysdig-tur-background;
       border-radius: 5px;
       padding: 12px;
       .form-control,
@@ -54,7 +54,7 @@
         width: 100%;
       }
       .form-control:focus, .CodeMirror-focused, .summernote.focused .note-editor {
-        border-color: $color-cyan;
+        border-color: $color-sysdig-tur;
         outline: 0;
         @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6));
       }
