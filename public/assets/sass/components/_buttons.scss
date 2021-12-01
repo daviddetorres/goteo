@@ -150,16 +150,14 @@
 }
 
 .btn-orange {
-    background: $color-orange;
-    @include background(linear-gradient(to right, $color-orange 28%,$color-red 100%));
+    background: $color-sysdig-tur;
     color: $color-white !important;
     border-left-color: $color-orange !important;
     border-right-color: $color-red !important;
     &:hover {
-        border-left-color: darken($color-orange, 10%) !important;
-        border-right-color: darken($color-red, 10%) !important;
-        background: darken($color-orange, 10%);
-        @include background(linear-gradient(to right, darken($color-orange, 10%) 28%, darken($color-red, 10%) 100%));
+        border-left-color: darken($color-sysdig-tur, 10%) !important;
+        border-right-color: darken($color-sysdig-tur, 10%) !important;
+        background: darken($color-sysdig-tur, 10%);
         color: $color-white !important;
     }
     .icon {
