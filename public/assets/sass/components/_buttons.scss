@@ -35,10 +35,10 @@
     }
 }
 .btn-green{
-    background-color: $color-green;
+    background-color: $color-sysdig-tur-light;
     color: $color-white !important;
     &:hover {
-        background-color:darken($color-green, 10%);
+        background-color:darken($color-sysdig-tur-light, 10%);
     }
     .icon {
         background-color: $color-white;
@@ -65,10 +65,10 @@
     }
 }
 .btn-lilac {
-    background-color: $color-lilac;
+    background-color: $color-sysdig-tur;
     color: $color-white !important;
     &:hover {
-        background-color:darken( $color-lilac, 10%);
+        background-color:darken( $color-sysdig-tur, 10%);
         color: $color-white !important;
         * {
             color: $color-white !important;
