@@ -524,7 +524,7 @@
     padding: 0;
 
     p {
-      color: $color-cyan;
+      color: $color-sysdig-tur;
       font-weight: bold;
       font-size: $font-size * 3;
     }
@@ -753,7 +753,7 @@
 
 .dashboard-content {
   &.cyan {
-    background: $background-light-body;
+    background: $color-sysdig-tur-background;
   }
   padding: 20px;
   @media(max-width: $breakpoint-sm - 1) {
