@@ -704,8 +704,8 @@
 }
 
 .dashboard-sections {
-  // background-color: $background-light-cream;
-  background-color: $background-light;
+  // background-color: $color-sysdig-tur-background;
+  background-color: $color-sysdig-tur-background;
   padding: 10px;
   // Do not stack this nav in any screen width
   .nav-tabs.nav-justified > li {
@@ -746,7 +746,7 @@
     background-color:$background-white;
     box-shadow: 0 1px 3px -2px $color-dark;
     >i {
-        background-color: $color-cyan;
+        background-color: $color-sysdig-tur-light;
     }
   }
 }
