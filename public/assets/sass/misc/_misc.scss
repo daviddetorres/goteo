@@ -193,12 +193,12 @@ ul.project-filters {
     font-weight: bold;
     padding: 5px 15px;
     cursor: pointer;
-    color: $primary-color;
+    color: $color-sysdig-tur;
     a {
-      color: $primary-color;
+      color: $color-sysdig-tur;
     }
     &.active{
-      background-color: $background-light-green;
+      background-color: $color-sysdig-tur;
       border-radius: 5px;
       color: $color-white !important;
       a {

@@ -62,7 +62,7 @@ div {
     font-size: 16px;
     font-weight: bold;
     &:hover {
-      color: #149290;
+      color: $color-sysdig-tur;
     }
   }
   &.sticky-menu {
@@ -97,7 +97,7 @@ div {
         }
       }
       &.favourite.active span.heart-icon {
-        color: #149290 !important;
+        color: $color-sysdig-tur !important;
       }
     }
   }
@@ -245,7 +245,7 @@ div {
         width: 75%;
       }
       &.status {
-        color: #149290;
+        color: $color-sysdig-tur;
         font-size: 18px;
         font-weight: bold;
         width: 75% !important;
@@ -409,7 +409,7 @@ div {
       line-height: 1.3;
     }
     .call-name {
-      color: #149290;
+      color: $color-sysdig-tur;
     }
   }
 
@@ -466,7 +466,7 @@ div.matcher-info {
         float: left;
         .progress{
           .progress-bar {
-              background-color: #149290;
+              background-color: $color-sysdig-tur;
           }
           .progress-completed{
               background-color: #70BB34;
@@ -542,7 +542,7 @@ div {
 h2 {
   &.green-title {
     font-size: 18px;
-    color: #149290;
+    color: #$color-sysdig-tur;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -800,7 +800,7 @@ div {
           top: 133px;
         }
         &.repeat {
-          background-color: #149290;
+          background-color: $color-sysdig-tur;
           border-radius: 50%;
           width: 30px;
           height: 30px;
@@ -832,7 +832,7 @@ div {
           color: $color-dark;
           font-weight: bold;
           &:hover {
-            color: #149290;
+            color: $color-sysdig-tur;
           }
         }
         div {
@@ -843,7 +843,7 @@ div {
               height: auto;
             }
             span.read-more {
-              color: #149290;
+              color: $color-sysdig-tur;
             }
           }
           &.comments {
@@ -860,7 +860,7 @@ div {
         flex-direction: column;
         justify-content: center;
         div.inside {
-          background-color: #149290;
+          background-color: $color-sysdig-tur;
           color: $color-white;
           font-size: 18px;
           font-weight: bold;
@@ -982,7 +982,7 @@ div {
       border-bottom: 1px solid $color-light-grey;
       div {
         &.green {
-          background-color: #149290;
+          background-color: $color-sysdig-tur;
           margin-right: 0.5%;
           height: 15px;
           float: left;
@@ -1301,7 +1301,7 @@ div {
       }
       &.status {
         font-size: 2.29em;
-        color: #149290;
+        color: $color-sysdig-tur;
         font-weight: bold;
         text-align: center;
         border-bottom: 1px solid #D5D5D5;
@@ -1318,7 +1318,7 @@ div {
       }
     }
     &.reached-container {
-      color: #149290;
+      color: $color-sysdig-tur;
     }
     &.responsive-meter div.row.meter-numbers {
       .meter-label {
