@@ -2,7 +2,7 @@
 
 /* User  */
 .user{
-  background-color: $background-light;
+  background-color: $color-sysdig-tur-background;
 
   div.border-bottom{
     border-bottom: 2px solid #FFF;
@@ -38,7 +38,7 @@
         margin-bottom: 0;
       }
       div.location{
-        color: $color-dark-green;
+        color: $color-sysdig-tur;
         font-weight: bold;
         margin-top: 8px;
         .icon{
@@ -57,7 +57,7 @@
         font-size: $font-size;
       }
       div.worthcracy-label{
-        color: $color-dark-green;
+        color: $color-sysdig-tur;
         font-size: $font-size*1.1;
         text-transform: uppercase;
         font-weight: bold;
@@ -79,7 +79,7 @@
             width: 100%;
             margin-bottom: 10px;
             &.green{
-              background-color: $color-dark-green;
+              background-color: $color-sysdig-tur;
             }
             &.grey{
               background-color: #D5D5D5;
@@ -89,7 +89,7 @@
             margin: 10px 0;
             font-size: $font-size*0.8;
             &.green{
-              color: $color-dark-green;
+              color: $color-sysdig-tur
               font-weight:bold;
             }
           }
@@ -109,7 +109,7 @@
     }
 
     div.stats{
-      background-color: $background-light;
+      background-color: $color-sysdig-tur-background;
       border-radius: 10px;
       padding: 0 0 15px 25px;
       width:24%;
@@ -117,7 +117,7 @@
 
       .title{
         font-size: $font-size*1.2;
-        color: $color-dark-green;
+        color: $color-sysdig-tur;
         font-weight: bold;
         text-transform: uppercase;
         padding-top: 5px;
@@ -130,7 +130,7 @@
             font-size: $font-size*1.5;
           }
           &.projects{
-            color: $color-dark-green;
+            color: $color-sysdig-tur;
             padding-top:5px;
             .item-data{
               font-size: $font-size*2.8;
@@ -149,7 +149,7 @@
     padding:25px 0;
     .label-item{
         font-size: $font-size*1.2;
-        color: $color-dark-green;
+        color: $color-sysdig-tur;
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -161,7 +161,7 @@
         border-radius: 50%;
         width: 65px;
         height: 65px;
-        background-color: $color-dark-green;
+        background-color: $color-sysdig-tur;
         box-shadow: 1px 3px 5px -3px #4d4d4d;
         float: right;
         .fa-search{
@@ -172,7 +172,7 @@
         .fa-link{
           font-size: $font-size*2.26;
           padding: 17px 18px;
-          color: $background-light;
+          color: $color-sysdig-tur-background;
         }
       }
       ul{
@@ -190,7 +190,7 @@
           .fa-users{
             font-size: $font-size*2;
             padding: 17px;
-            color: $background-light;
+            color: $color-sysdig-tur-background;
           }
         }
       .social-content{
@@ -220,7 +220,7 @@
       }
       .title{
           font-size: $font-size*1.2;
-          color: $color-dark-green;
+          color: $color-sysdig-tur;
           font-weight: bold;
           text-transform: uppercase;
           margin-bottom:20px;
