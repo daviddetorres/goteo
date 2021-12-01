@@ -14,21 +14,21 @@
 }
 
 .btn-success{
-    background-color: $background-green !important;
-    border-color: $background-green !important;
+    background-color: $color-sysdig-tur !important;
+    border-color: $color-sysdig-tur !important;
     color: $color-white !important;
     &:hover {
-        background-color:darken( $background-green, 10%);
+        background-color:darken( $color-sysdig-tur, 10%);
     }
     .icon {
         background-color: $color-white;
     }
 }
 .btn-pink{
-    background-color: $color-pink;
+    background-color: $color-sysdig-tur;
     color: $color-white !important;
     &:hover {
-        background-color:darken($color-pink, 10%);
+        background-color:darken($color-sysdig-tur, 10%);
     }
     .icon {
         background-color: $color-white;
